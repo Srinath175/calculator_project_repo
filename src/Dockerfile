@@ -1,3 +1,3 @@
-FROM nginx
-WORKDIR target1
-COPY . /target1
+FROM java
+WORKDIR /app
+COPY . /app
