@@ -1,2 +1,3 @@
 FROM nginx
-COPY calculatorjob /usr/share/nginx/html
+WORKDIR target1
+COPY . /target1
