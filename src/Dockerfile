@@ -1,2 +1,2 @@
 FROM nginx
-COPY target /usr/share/nginx/html
+COPY calculatorjob /usr/share/nginx/html
